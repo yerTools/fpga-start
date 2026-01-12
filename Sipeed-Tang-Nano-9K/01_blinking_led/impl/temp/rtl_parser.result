@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/01_blinking_led/src/top.v.v",
+  "InstLine" : 1,
+  "InstName" : "Top",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/01_blinking_led/src/top.v.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Top"
+ }
+]
