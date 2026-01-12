@@ -3,35 +3,46 @@ module Audio_Top (
     output pdm_out   // An den RC-Filter - Pin 31 => 1 kOhm => {Audio-Out} => 3300 pF => GND
 );
 
-    // --- TEIL 1: Der "Clock Enable" Generator (Teiler durch 6) ---
-    // Wir wollen ca. 4.5 MHz Sampling Rate.
-    reg [2:0] div_cnt;
-    reg ce_4_5mhz; // Das ist unser "Enable"-Signal (Strobe)
+    // Drähte für die Verbindung zur PLL
+    wire clk_24mhz;
 
-    always @(posedge clk) begin
-        if (div_cnt == 5) begin
+    // --- 1. INSTANZIERUNG DER PLL ---
+    // Der Name "Gowin_rPLL" hängt davon ab, wie du das IP genannt hast.
+    // Schau in die generierte .v Datei, wie das Modul heißt!
+    Gowin_rPLL pll_24mhz (
+        .clkout(clk_24mhz), // Unser neuer 24 MHz Takt
+        .clkin(clk)          // Input: 27 MHz
+    );
+
+    // --- TEIL 2: Der "Clock Enable" Generator (Teiler durch 5) ---
+    // Wir wollen ca. 4.8 MHz Sampling Rate.
+    reg [2:0] div_cnt;
+    reg ce_4_8mhz; // Das ist unser "Enable"-Signal (Strobe)
+
+    always @(posedge clk_24mhz) begin
+        if (div_cnt == 4) begin
             div_cnt <= 0;
-            ce_4_5mhz <= 1; // Tür auf! Einmaliger Impuls.
+            ce_4_8mhz <= 1; // Tür auf! Einmaliger Impuls.
         end else begin
             div_cnt <= div_cnt + 1;
-            ce_4_5mhz <= 0; // Tür zu.
+            ce_4_8mhz <= 0; // Tür zu.
         end
     end
 
-    // --- TEIL 2: Audio Logik (nur wenn Tür offen) ---
+    // --- TEIL 3: Audio Logik (nur wenn Tür offen) ---
 
     // 1. Die Audio-Quelle: Ein Sägezahn
-    // 4.5 MHz / 8192 (13 bit) = ca. 550 Hz. 
-    // Das ist fast ein C#5 Ton (554Hz). Perfekt hörbar.
+    // 4.8 MHz / 8192 (13 bit) = ca. 586 Hz. 
+    // Das ist fast ein D5 Ton (587Hz). Perfekt hörbar.
     reg [12:0] saw_wave;
     
     // 2. Der PDM Modulator (1st Order Delta-Sigma)
     // Wir brauchen einen Akkumulator, der ein Bit breiter ist als unser Signal.
     reg [13:0] accumulator;
 
-    always @(posedge clk) begin
-        // WICHTIG: Alles passiert nur, wenn ce_4_5mhz aktiv ist!
-        if (ce_4_5mhz) begin
+    always @(posedge clk_24mhz) begin
+        // WICHTIG: Alles passiert nur, wenn ce_4_8mhz aktiv ist!
+        if (ce_4_8mhz) begin
             // A. Sägezahn generieren
             saw_wave <= saw_wave + 1;
 

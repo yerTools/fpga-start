@@ -5,6 +5,16 @@
   "InstName" : "Audio_Top",
   "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v",
   "ModuleLine" : 1,
-  "ModuleName" : "Audio_Top"
+  "ModuleName" : "Audio_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v",
+    "InstLine" : 12,
+    "InstName" : "pll_24mhz",
+    "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   }
+  ]
  }
 ]

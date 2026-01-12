@@ -1,9 +1,11 @@
 GowinSynthesis start
 Running parser ...
 Analyzing Verilog file '/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v'
+Analyzing Verilog file '/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/gowin_rpll/gowin_rpll.v'
 Compiling module 'Audio_Top'("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v":1)
-WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v":16)
-WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v":36)
+Compiling module 'Gowin_rPLL'("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/gowin_rpll/gowin_rpll.v":10)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v":27)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v":47)
 NOTE  (EX0101) : Current top module is "Audio_Top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...

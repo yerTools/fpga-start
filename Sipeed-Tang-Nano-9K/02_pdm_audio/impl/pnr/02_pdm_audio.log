@@ -7,7 +7,6 @@ Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
 [30%] Placement Phase 2 completed
-WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
 [50%] Placement Phase 3 completed
 Running routing......
 [60%] Routing Phase 0 completed
@@ -26,5 +25,5 @@ Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tan
 Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.rpt.html" completed
 Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.rpt.txt" completed
 Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.tr.html" completed
-Tue Jan 13 00:17:07 2026
+Tue Jan 13 00:40:31 2026
 
