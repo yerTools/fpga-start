@@ -1,0 +1,30 @@
+Reading netlist file: "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/gwsynthesis/02_pdm_audio.vg"
+Parsing netlist file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/gwsynthesis/02_pdm_audio.vg" completed
+Processing netlist completed
+Reading constraint file: "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/02_pdm_audio.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.power.html" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.pin.html" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.rpt.html" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.rpt.txt" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/impl/pnr/02_pdm_audio.tr.html" completed
+Tue Jan 13 00:17:07 2026
+

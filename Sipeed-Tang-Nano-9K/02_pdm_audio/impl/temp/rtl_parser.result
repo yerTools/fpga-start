@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "Audio_Top",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Audio_Top"
+ }
+]
