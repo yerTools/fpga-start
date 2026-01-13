@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="Audio_Top" Register="31" Alu="25" Lut="5" T_Register="31(31)" T_Alu="25(25)" T_Lut="5(5)">
+<Module name="Audio_Top" Register="52" Alu="47" Lut="6" Bsram="4" T_Register="52(52)" T_Alu="47(47)" T_Lut="6(6)" T_Bsram="4(4)">
  <SubModule name="pll_24mhz"/>
 </Module>

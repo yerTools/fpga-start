@@ -1,5 +1,6 @@
 module Audio_Top (
     input clk,       // 27 MHz => Pin 52
+    input s1, s2,    // Taster Pin 4 und Pin 3
     output pdm_out   // An den RC-Filter - Pin 31 => 1 kOhm => {Audio-Out} => 3300 pF => GND
 );
 
@@ -13,6 +14,7 @@ module Audio_Top (
         .clkout(clk_24mhz), // Unser neuer 24 MHz Takt
         .clkin(clk)          // Input: 27 MHz
     );
+
 
     // --- TEIL 2: Der "Clock Enable" Generator (Teiler durch 5) ---
     // Wir wollen ca. 4.8 MHz Sampling Rate.
@@ -29,32 +31,56 @@ module Audio_Top (
         end
     end
 
-    // --- TEIL 3: Audio Logik (nur wenn Tür offen) ---
+    // --- TEIL 3: Der Speicher (ROM) ---
+    // 4096 Einträge, 16 Bit breit
+    reg [15:0] sine_rom [0:4095];
 
-    // 1. Die Audio-Quelle: Ein Sägezahn
-    // 4.8 MHz / 8192 (13 bit) = ca. 586 Hz. 
-    // Das ist fast ein D5 Ton (587Hz). Perfekt hörbar.
-    reg [12:0] saw_wave;
+    // Datei laden. Der Synthesizer führt das beim "Brennen" aus.
+    // Der Inhalt ist dann fest im Chip "eingebrannt".
+    initial begin
+        $readmemh("sine.hex", sine_rom);
+    end
+
+
+    // --- TEIL 4: Der Frequenz-Generator (32 Bit für extreme Präzision) ---
+    // Damit kommen wir rechnerisch auf 0.001 Hz genau. 
+    // Das reicht für jeden Bass der Welt.
+    reg [31:0] phase_accumulator;
+    reg [31:0] step_size;
+
+    // Berechnung: Step = (Ziel_Hz * 2^32) / 4.800.000
+    // Konstante "Magic Number" (2^32 / 4.8M) ≈ 894.78
+    // 440 Hz * 895 = 393800
+    // 50 Hz (Bass) * 895 = 44750
     
-    // 2. Der PDM Modulator (1st Order Delta-Sigma)
-    // Wir brauchen einen Akkumulator, der ein Bit breiter ist als unser Signal.
-    reg [13:0] accumulator;
+    always @(*) begin
+        if (!s1)       step_size = 393800; // 440 Hz
+        else if (!s2)  step_size = 44750;  // 50 Hz (Tiefer Bass!)
+        else           step_size = 0;
+    end
+
+
+    // --- TEIL 5: Audio & PDM (16 Bit CD-Qualität) ---
+    // PDM Akkumulator braucht 17 Bit (16 Bit Audio + 1 Bit Überlauf)
+    reg [16:0] pdm_acc;
+    reg [15:0] current_sample; // Hier landet der Wert aus der Tabelle
 
     always @(posedge clk_24mhz) begin
-        // WICHTIG: Alles passiert nur, wenn ce_4_8mhz aktiv ist!
         if (ce_4_8mhz) begin
-            // A. Sägezahn generieren
-            saw_wave <= saw_wave + 1;
+            // 1. Frequenz weiterzählen (hochpräzise)
+            phase_accumulator <= phase_accumulator + step_size;
 
-            // B. PDM Modulator
-            // Addiere den aktuellen Audio-Wert zum Speicher
-            accumulator <= accumulator[12:0] + saw_wave;
+            // 2. Lookup (Nachschlagen)
+            // Wir nutzen die obersten 12 Bits als Adresse (0..4095)
+            // phase_accumulator[31:20] sind genau 12 Bits.
+            current_sample <= sine_rom[phase_accumulator[31:20]];
+
+            // 3. PDM generieren (CD-Qualität)
+            // Wir nehmen das High-Byte des Frequenzzählers als aktuellen "Wert"
+            pdm_acc <= pdm_acc[15:0] + current_sample;
         end
     end
 
-    // Das Überlauf-Bit ist unser Output
-    // Der Output ist ein "Draht", der braucht kein Enable.
-    // Er zeigt einfach immer den Zustand des obersten Bits.
-    assign pdm_out = accumulator[13];
+    assign pdm_out = pdm_acc[16];
 
 endmodule
