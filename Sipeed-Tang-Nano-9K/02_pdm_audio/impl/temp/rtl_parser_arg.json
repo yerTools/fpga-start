@@ -2,11 +2,11 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v",
+   "Path" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/gowin_rpll/gowin_rpll.v",
+   "Path" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Nano-9K/02_pdm_audio/src/main.v",
    "Type" : "verilog"
   }
  ],
