@@ -1,0 +1,43 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.10.03 Education"
+//Thu Jan 15 21:09:25 2026
+
+//Source file index table:
+//file0 "\/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_and_gate/src/and_gate.v"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+mZbzvS+AK3e+MdbK60D/+fXQV/2HvjcmScpKbLHxZMoh2+ntyjEheNPCbSkWUFzkm5RH/qjrjiC1
+Em0dDAUhQhga/qxve5j8cbqsbd/F58oAE2suAHrYKHdZ7WT/Qlh6StbUeja4v+Z7T1BI6t6Ogx2k
+eykAGHGpHma25jewxQj5hhMMTsjfrL5V+domBGfnBpnYUTQgbNtPqkWC2Kj4axNJONL+xkSQCPS1
+4lKf+b9fmE+ao5cQYmLjO0HDF+Y1ysULmbQmqLRMzcEinV+7wwaRBSB2vcxPaeMuWqmRmknypSxz
+AFNI9P6AWmmQtIzf5oHuPMzx+z1PjxGSOwo5ug==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=768)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+VKPUaRCiimRrKxPbTqlAcGL/Fnq9Q57s+XVAJNFUtaHh4IlTganrUKvghVS8mvgEl0V2eOU4M3K5
+Kkm+6BfG+JvdAl181hJ2GzUVUgV6FGg9WRNg1aGXY5ykKTtGokOIEhYj1zGB12XHUWu620Rfwc0S
+j+tWSviOdgSGa1UR4qroUgHUgAzbOC+jMrMmV8VP7f5hoOHlTb0rubUHOS81WH3IUL0t3p5MNvR4
+ToCCOElrGjBFFlMBlHlQ+YgxsMCN0j1/16F9ZsbWA9xt1VwmLsIBjROxcwLAAkjd7x2w3wMqI6by
+DGktRDye06mV8tuTrr9Z9dZY/pSY0KU7LXE6llFc86RGP8gcMjRiwSikoRUQWiKADMSU2qV/vget
+6uT7yLBJLvgVSDQIxLHXaDXCtn1DYf5wlVLhZ+M0V0U514VrAsvO3eodtT2oJ/sX1akiqxDTpMKw
+pTFMOmKYr0uliP3J9S538ie2Vy17uNHwk4TkOsZ/77fJklGhgkt+PtTYe+wli79MWVn9chHFYQZH
+Z0UnH8hNZJ0oAEQxyWazYCDfs4YS2T8rxK2OTSe3Ug9i009HZmK+g8pZddZpzib0hl6sMVAO9dLG
+nB4zeo2s5d29hGqCyP5TXXeRDn34ByHCknSAwEnkSDzttsopfrgCEFJdtZEsLz5pPACO+w2/GUqk
+kuALce5leoTOgpv6+yublRtZxJJt79Rse7b2bWl1wEC5Fzi0uISb03Ur5aZP867JQWVdJtsEC0is
+St93VfvEBkcFrYpciK6b//CfLGq3unRgwk8vzW9/KZ2Yc/jCLS2i1K6SBxciTVfWfDmoAJcuX/Og
+mj/L2qDpZTa0cVq7sSVALPOMpeOlY2EaWvbLKzbyHD9oNTmI/WU8wgLovDNqLmX4F3+q4iDSOZ+e
+jjGOATTKoRNDgaJ8QOgn+bQIOlNN2qJGM/ArWl+y+QEVeXt39xGhre1bm730f8cCZuQkvP/8K7Tp
+9y6hXlJibxmMjhyZsXpyR4aRRTP+CGph59m5
+`pragma protect end_protected

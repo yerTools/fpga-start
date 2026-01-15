@@ -1,0 +1,17 @@
+{
+ "Device" : "GW2A-18C",
+ "Files" : [
+  {
+   "Path" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_and_gate/src/and_gate.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_and_gate/impl/temp/rtl_parser.result",
+ "Top" : "and_gate",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

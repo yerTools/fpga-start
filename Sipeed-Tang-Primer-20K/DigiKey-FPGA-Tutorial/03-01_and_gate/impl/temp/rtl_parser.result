@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_and_gate/src/and_gate.v",
+  "InstLine" : 3,
+  "InstName" : "and_gate",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_and_gate/src/and_gate.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "and_gate"
+ }
+]
