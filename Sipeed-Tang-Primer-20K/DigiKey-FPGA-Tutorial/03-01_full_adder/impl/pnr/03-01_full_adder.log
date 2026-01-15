@@ -1,0 +1,29 @@
+Reading netlist file: "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/gwsynthesis/03-01_full_adder.vg"
+Parsing netlist file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/gwsynthesis/03-01_full_adder.vg" completed
+Processing netlist completed
+Reading constraint file: "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/src/03-01_full_adder.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/pnr/03-01_full_adder.power.html" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/pnr/03-01_full_adder.pin.html" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/pnr/03-01_full_adder.rpt.html" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/pnr/03-01_full_adder.rpt.txt" completed
+Generate file "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/impl/pnr/03-01_full_adder.tr.html" completed
+Thu Jan 15 21:21:11 2026
+

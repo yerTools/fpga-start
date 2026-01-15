@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/src/full_adder.v",
+  "InstLine" : 1,
+  "InstName" : "full_adder",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/03-01_full_adder/src/full_adder.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "full_adder"
+ }
+]
