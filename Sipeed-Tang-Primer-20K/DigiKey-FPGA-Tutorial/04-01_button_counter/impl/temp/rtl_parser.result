@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/04-01_button_counter/src/button_counter.v",
+  "InstLine" : 4,
+  "InstName" : "button_counter",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/04-01_button_counter/src/button_counter.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "button_counter"
+ }
+]

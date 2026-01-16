@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/04-02_clock_counter/src/clock_counter.v",
+  "InstLine" : 4,
+  "InstName" : "clock_counter",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/04-02_clock_counter/src/clock_counter.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "clock_counter"
+ }
+]
