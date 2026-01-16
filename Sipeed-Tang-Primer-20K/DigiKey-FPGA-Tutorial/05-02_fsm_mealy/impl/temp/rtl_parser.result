@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-02_fsm_mealy/src/fsm_mealy.v",
+  "InstLine" : 4,
+  "InstName" : "fsm_mealy",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-02_fsm_mealy/src/fsm_mealy.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "fsm_mealy"
+ }
+]

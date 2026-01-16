@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-01_fsm_moore/src/fsm_moore.v",
+  "InstLine" : 4,
+  "InstName" : "fsm_moore",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-01_fsm_moore/src/fsm_moore.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "fsm_moore"
+ }
+]

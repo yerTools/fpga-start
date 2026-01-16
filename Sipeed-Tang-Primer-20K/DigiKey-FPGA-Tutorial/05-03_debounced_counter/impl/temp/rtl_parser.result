@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-03_debounced_counter/src/debounced_counter.v",
+  "InstLine" : 25,
+  "InstName" : "debounced_counter",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-03_debounced_counter/src/debounced_counter.v",
+  "ModuleLine" : 25,
+  "ModuleName" : "debounced_counter",
+  "SubInsts" : [
+   {
+    "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-03_debounced_counter/src/debounced_counter.v",
+    "InstLine" : 43,
+    "InstName" : "b",
+    "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/DigiKey-FPGA-Tutorial/05-03_debounced_counter/src/debounced_counter.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "bouncer"
+   }
+  ]
+ }
+]
