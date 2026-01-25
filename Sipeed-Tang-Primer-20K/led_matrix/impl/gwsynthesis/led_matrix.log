@@ -1,12 +1,14 @@
 GowinSynthesis start
 Running parser ...
 Analyzing Verilog file '/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v'
-Compiling module 'led_matrix'("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":1)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":12)
-WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":43)
-WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":46)
-WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":64)
-WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":91)
+Compiling module 'led_matrix'("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":15)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":26)
+WARN  (EX3771) : Module instantiation should have an instance name("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":44)
+Compiling module 'color_for'("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":1)
+WARN  (EX3771) : Module instantiation should have an instance name("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":53)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":101)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":128)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v":148)
 NOTE  (EX0101) : Current top module is "led_matrix"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
