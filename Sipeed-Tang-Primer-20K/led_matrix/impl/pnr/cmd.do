@@ -1,0 +1,14 @@
+-d /run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/impl/gwsynthesis/led_matrix.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst /run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.cst
+-cfg /run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

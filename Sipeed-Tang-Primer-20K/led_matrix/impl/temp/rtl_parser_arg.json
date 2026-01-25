@@ -1,0 +1,17 @@
+{
+ "Device" : "GW2A-18C",
+ "Files" : [
+  {
+   "Path" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

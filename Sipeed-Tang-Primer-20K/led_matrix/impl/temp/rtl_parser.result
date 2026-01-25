@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "InstLine" : 1,
+  "InstName" : "led_matrix",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "led_matrix"
+ }
+]
