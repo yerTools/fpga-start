@@ -1,26 +1,50 @@
 [
  {
   "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
-  "InstLine" : 15,
+  "InstLine" : 1,
+  "InstName" : "color_for_cycles",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "color_for_cycles"
+ },
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "InstLine" : 28,
+  "InstName" : "color_for_xor",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "ModuleLine" : 28,
+  "ModuleName" : "color_for_xor"
+ },
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "InstLine" : 53,
+  "InstName" : "color_for_green",
+  "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "ModuleLine" : 53,
+  "ModuleName" : "color_for_green"
+ },
+ {
+  "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
+  "InstLine" : 174,
   "InstName" : "led_matrix",
   "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
-  "ModuleLine" : 15,
+  "ModuleLine" : 174,
   "ModuleName" : "led_matrix",
   "SubInsts" : [
    {
     "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
-    "InstLine" : 44,
-    "InstName" : "i22",
+    "InstLine" : 216,
+    "InstName" : "c1",
     "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
-    "ModuleLine" : 1,
+    "ModuleLine" : 80,
     "ModuleName" : "color_for"
    },
    {
     "InstFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
-    "InstLine" : 53,
-    "InstName" : "i23",
+    "InstLine" : 224,
+    "InstName" : "c2",
     "ModuleFile" : "/run/host/var/home/felix/Documents/Projects/fpga-start/Sipeed-Tang-Primer-20K/led_matrix/src/led_matrix.v",
-    "ModuleLine" : 1,
+    "ModuleLine" : 80,
     "ModuleName" : "color_for"
    }
   ]

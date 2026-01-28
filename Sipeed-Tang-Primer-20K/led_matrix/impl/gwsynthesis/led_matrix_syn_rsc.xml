@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="led_matrix" Register="32" Alu="19" Lut="47" T_Register="32(32)" T_Alu="43(19)" T_Lut="47(47)">
- <SubModule name="i22" Alu="12" T_Alu="12(12)"/>
- <SubModule name="i23" Alu="12" T_Alu="12(12)"/>
+<Module name="led_matrix" Register="60" Alu="33" Lut="103" MULT9X9="1" T_Register="60(60)" T_Alu="139(33)" T_Lut="176(103)" T_MULT9X9="1(1)" T_MULTADDALU18X18="6(0)">
+ <SubModule name="c1" Alu="53" Lut="37" MULTADDALU18X18="3" T_Alu="53(53)" T_Lut="37(37)" T_MULTADDALU18X18="3(3)"/>
+ <SubModule name="c2" Alu="53" Lut="36" MULTADDALU18X18="3" T_Alu="53(53)" T_Lut="36(36)" T_MULTADDALU18X18="3(3)"/>
 </Module>
